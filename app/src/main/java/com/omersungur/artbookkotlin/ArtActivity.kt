@@ -24,8 +24,8 @@ import java.io.ByteArrayOutputStream
 class ArtActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityArtBinding
-    private lateinit var activityResultLauncher: ActivityResultLauncher<Intent>
-    private lateinit var permissionLauncher: ActivityResultLauncher<String>
+    private lateinit var activityResultLauncher: ActivityResultLauncher<Intent> // Aktiviteyi bir sonuç için başlatıyoruz.
+    private lateinit var permissionLauncher: ActivityResultLauncher<String> // İzinler string gelir.
     private lateinit var selectedBitmap: Bitmap
     private lateinit var database : SQLiteDatabase
 
